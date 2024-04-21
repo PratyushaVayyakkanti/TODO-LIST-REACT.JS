@@ -1,0 +1,103 @@
+/* Todo List container */
+.Todo {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: hsl(187, 69%, 50%);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  text-decoration-style: solid;
+}
+
+/* Headings */
+#head, #head2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+  text-align: center;
+}
+
+/* Input and buttons */
+.Todo input[type="text"] {
+  padding: 8px;
+  margin-right: 10px;
+  width: 60%;
+  font-size: 16px;
+  
+}
+
+.Todo button {
+  padding: 8px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.Todo button:hover {
+  background-color: #005f77;
+}
+
+/* Task list */
+#lists {
+  list-style-type: none;
+  padding: 0;
+}
+
+.Todo li {
+  margin-bottom: 10px;
+}
+
+/* Edit mode */
+.Todo .edit-mode input[type="text"] {
+  width: auto;
+}
+
+/* Button style */
+.button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+.button:hover {
+  background-color: #45a049;
+}
+/* Todo.css */
+
+.Todo {
+  font-family: Arial, sans-serif;
+}
+
+#head {
+  text-align: center;
+}
+
+#head2 {
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 1px; 
+  padding: 10px;
+  border: 1px solid hsl(0, 20%, 83%);
+  border-radius: 5px; 
+  background-color: rgb(248, 224, 224); 
+}
+
+li input[type="text"] {
+  margin-right: 10px; 
+}
+
+li button {
+  margin-left: 10px;
+}
